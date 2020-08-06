@@ -1,0 +1,45 @@
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    
+    .obuv-logo{
+        margin-top: 13%;    
+    }
+
+    .login-form {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%) translateY(-80%);
+        left: 50%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .login-input {
+            width: 80%;
+            padding: 1em;
+            margin: 0.5em;
+        }
+
+        .login-button {
+            width: 30%;
+            margin-top: 1em;
+        }
+        
+        .login-create-account {
+            margin-top: 10px;
+        }
+        
+    }
+}
+
+@media (min-width:450px) {
+    .auth-page{
+        .login-form {
+            width: 500px;
+        }
+    }
+}

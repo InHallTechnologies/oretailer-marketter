@@ -1,0 +1,14 @@
+.main {
+    
+    .account-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 20% auto;
+
+        .form-input {
+            padding: 0.6em;
+            margin-bottom: 0.5em;
+        }
+    }
+}

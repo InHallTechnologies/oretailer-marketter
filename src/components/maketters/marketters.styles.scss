@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.marketter-card {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px dotted pink;
+    overflow: hidden;
+    padding: 0.1em;
+    margin: 0.3;
+    align-items: center;
+
+    &:hover {
+        background-color: lightblue;
+        border-radius: 5px;
+        transition-duration: 1s;
+    }
+}

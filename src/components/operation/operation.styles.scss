@@ -1,0 +1,11 @@
+.operation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  border: 1px lightcoral solid;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: space-evenly;
+}

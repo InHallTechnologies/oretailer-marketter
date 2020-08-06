@@ -1,0 +1,13 @@
+.marketters-list {
+  .title {
+    text-align: center;
+  }
+
+  .container {
+    display: grid;
+    padding: 1.2%;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 10px;
+  }
+}
